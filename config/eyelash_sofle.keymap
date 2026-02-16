@@ -230,7 +230,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse_scroll SCRL_UP SCRL_DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         num_layer {
@@ -245,7 +245,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse_scroll SCRL_UP SCRL_DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         game_layer {
@@ -260,7 +260,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse_scroll SCRL_UP SCRL_DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         /*
@@ -280,7 +280,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse_scroll SCRL_UP SCRL_DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         /* SCROLL LAYER (Layer #5; or 4 if counting from 0) - Hold left thumb 1 for scroll mode */
@@ -297,7 +297,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&mouse_scroll SCRL_UP SCRL_DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
     };
 };
