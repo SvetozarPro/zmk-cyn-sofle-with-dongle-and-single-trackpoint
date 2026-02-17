@@ -54,10 +54,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
+  - {t: num, h: toggle}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - {t: letter, h: toggle}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: game, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -118,7 +118,7 @@ layers:
   - {t: game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
-  - {t: letter, h: toggle}
+  - {t: base, h: toggle}
   - KP DOT
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -176,7 +176,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base, h: toggle}
+  - {t: letter, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: num, h: toggle}
@@ -298,10 +298,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  - {t: num, h: toggle}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {t: base, h: toggle}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: game, h: toggle}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: \, s: '|'}
