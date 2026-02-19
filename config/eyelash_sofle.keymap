@@ -36,7 +36,7 @@
 
         adjust_layer {
             if-layers = <1 5>;
-            then-layer = <5>;
+            then-layer = <4>;
         };
     };
 
