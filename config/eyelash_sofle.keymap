@@ -35,7 +35,7 @@
         compatible = "zmk,conditional-layers";
 
         adjust_layer {
-            if-layers = <1 5>;
+            if-layers = <1 5 3>;
             then-layer = <4>;
         };
     };
