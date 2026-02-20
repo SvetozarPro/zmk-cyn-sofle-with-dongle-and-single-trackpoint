@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   letter:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - N
   - M
   - {t: ',', s: <}
@@ -52,17 +52,17 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-option$$
   - num
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - fn
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
+  - fn
   - {t: \, s: '|'}
   num:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -71,7 +71,7 @@ layers:
   - KP NUMLOCK
   - KP SLASH
   - KP MULTIPLY
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '=', s: +}
   - MUTE
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -105,37 +105,37 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - KP 1
   - KP 2
   - KP 3
   - KP ENTER
   - SCROLLLOCK
-  - PLAY PAUSE
+  - '&ZonePrintScreen'
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: letter, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - KP 0
-  - $$mdi:apple-keyboard-option$$
   - KP DOT
-  - {t: '=', s: +}
+  - fn
   - {t: '$$mdi:backspace$$', type: backspace}
   game:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-down$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -165,8 +165,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
   - N
   - M
   - {t: ',', s: <}
@@ -174,14 +174,14 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - num
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - fn
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
+  - fn
   - {t: \, s: '|'}
   mouse:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -318,7 +318,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -330,7 +330,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
   - F12
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -348,21 +348,21 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: num, h: toggle}
   - {t: game, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - LEFT WIN
+  - {t: num, type: held alternate}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - LEFT WIN
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: num, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: letter, h: toggle}
