@@ -122,7 +122,7 @@
         ZonePrintScreenUbuntu: ZonePrintScreenUbuntu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LSHFT &kp PRINTSCREEN>;
+            bindings = <&kp LC(LS(PRINTSCREEN))>;
             label = "ZONEPRINTSCREENUBUNTU";
         };
     };
@@ -312,11 +312,11 @@
         fn_layer {
             display-name = "fn";
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2            &kp F3  &kp F4        &kp F5                                &kp F6          &kp F7          &kp F8           &kp F9         &kp F10         &kp F11
-&kp TAB     &kp Q   &kp W             &kp E   &kp R         &kp T                                 &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_UP   &msc SCRL_DOWN  &kp F12
-&kp CAPS    &kp A   &kp S             &kp D   &kp F         &kp G                                 &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none           &to 5
-&kp LSHFT   &kp Z   &kp X             &kp C   &kp V         &kp B      &kp SPACE       &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 1           &to 2
-                    &kp LEFT_CONTROL  &mo 1   &kp LEFT_ALT  &kp ENTER  &kp LEFT_WIN    &kp BSPC   &none           &none           &none            &to 0
+&kp ESCAPE  &kp F1  &kp F2            &kp F3  &kp F4        &kp F5                                &kp F6          &kp F7                  &kp F8           &kp F9         &kp F10         &kp F11
+&kp TAB     &kp Q   &kp W             &kp E   &kp R         &kp T                                 &mkp LCLK       &mkp MCLK               &mkp RCLK        &msc SCRL_UP   &msc SCRL_DOWN  &kp F12
+&kp CAPS    &kp A   &kp S             &kp D   &kp F         &kp G                                 &kp HOME        &kp UP_ARROW            &kp END          &kp PAGE_UP    &none           &to 5
+&kp LSHFT   &kp Z   &kp X             &kp C   &kp V         &kp B      &kp SPACE       &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW  &kp PAGE_DOWN  &to 1           &to 2
+                    &kp LEFT_CONTROL  &mo 1   &kp LEFT_ALT  &kp ENTER  &kp LEFT_WIN    &kp BSPC   &kp C_MUTE      &ZonePrintScreenUbuntu  &none            &to 0
             >;
 
             sensor-bindings =
