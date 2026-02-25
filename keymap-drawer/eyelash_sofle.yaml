@@ -54,8 +54,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - num
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -72,8 +72,8 @@ layers:
   - KP SLASH
   - KP MULTIPLY
   - {t: '=', s: +}
-  - MUTE
   - PRINTSCREEN
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,8 +110,8 @@ layers:
   - KP 2
   - KP 3
   - KP ENTER
-  - SCROLLLOCK
   - '&ZonePrintScreen'
+  - '&ZonePrintScreenUbuntu'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,9 +175,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - num
+  - {t: '$$mdi:minus-circle-outline$$', h: mouse}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -359,8 +359,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: num, type: held alternate}
   - $$mdi:apple-keyboard-option$$
-  - LEFT WIN
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - LEFT WIN
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
