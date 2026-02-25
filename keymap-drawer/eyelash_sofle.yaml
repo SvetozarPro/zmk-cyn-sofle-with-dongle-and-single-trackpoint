@@ -362,7 +362,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LEFT WIN
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
+  - '&ZonePrintScreenUbuntu'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: letter, h: toggle}
