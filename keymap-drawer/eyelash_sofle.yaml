@@ -121,7 +121,7 @@ layers:
   - KP 0
   - KP DOT
   - fn
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   game:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -340,7 +340,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - PgUp
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: num, h: toggle}
   - {t: fn, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -354,7 +354,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PgDn
-  - {t: num, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: game, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - {t: num, type: held alternate}
