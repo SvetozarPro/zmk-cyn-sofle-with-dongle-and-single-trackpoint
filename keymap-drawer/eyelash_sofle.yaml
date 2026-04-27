@@ -331,6 +331,67 @@ layers:
   - $$mdi:pan-down$$
   - F12
   - $$mdi:apple-keyboard-caps$$
+  - PgUp
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - PgUp
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - PgUp
+  - {t: num, h: toggle}
+  - {t: fn, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
+  - PgDn
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - PgDn
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - PgDn
+  - {t: '$$mdi:minus-circle-outline$$', h: fn_half}
+  - {t: game, h: toggle}
+  - $$mdi:apple-keyboard-control$$
+  - {t: num, type: held alternate}
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - LEFT WIN
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:volume-off$$
+  - '&ZonePrintScreenUbuntu'
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: letter, h: toggle}
+  fn_half:
+  - $$mdi:keyboard-esc$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
+  - F12
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -354,15 +415,15 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: game, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - {t: num, type: held alternate}
+  - {t: num, type: held}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LEFT WIN
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
-  - '&ZonePrintScreenUbuntu'
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: fn_half, h: toggle}
+  - {t: fn, type: held}
   - {t: letter, h: toggle}
