@@ -63,11 +63,11 @@ layers:
   - {t: \, s: '|'}
   num:
   - $$mdi:keyboard-esc$$
-  - '1'
+  - Ctl+Sft+$$mdi:keyboard-esc$$
   - '2'
   - '3'
-  - '4'
-  - '5'
+  - '&mkp MB4'
+  - '&mkp MB5'
   - KP NUMLOCK
   - KP SLASH
   - KP MULTIPLY
