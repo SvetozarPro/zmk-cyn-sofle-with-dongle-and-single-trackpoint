@@ -254,11 +254,11 @@
         num_layer {
             display-name = "num";
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp EQUAL     &kp PRINTSCREEN  &kp C_MUTE
-&trans      &trans        &trans        &trans        &trans        &trans                                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp HOME         &kp END
-&trans      &trans        &trans        &trans        &trans        &trans                                 &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp PAGE_UP      &kp PAGE_DOWN
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &kp SPACE      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &kp KP_DOT       &ZonePrintScreenUbuntu
-                          &trans        &none         &trans        &trans        &trans    &kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_DOT       &mo 3            &none
+&kp ESCAPE  &kp LC(LS(ESCAPE))  &kp NUMBER_2  &kp NUMBER_3  &mkp MB4  &mkp MB5                           &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp EQUAL     &kp PRINTSCREEN  &kp C_MUTE
+&trans      &trans              &trans        &trans        &trans    &trans                             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp HOME         &kp END
+&trans      &trans              &trans        &trans        &trans    &trans                             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp PAGE_UP      &kp PAGE_DOWN
+&trans      &trans              &trans        &trans        &trans    &trans    &trans    &kp SPACE      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &kp KP_DOT       &ZonePrintScreenUbuntu
+                                &trans        &none         &trans    &trans    &trans    &kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_DOT       &mo 3            &none
             >;
 
             sensor-bindings =
