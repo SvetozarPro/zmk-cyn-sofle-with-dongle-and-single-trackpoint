@@ -14,6 +14,7 @@
 #include <input/processors/temp_layer.dtsi>
 #include <input/processors/scaler.dtsi>
 #include <input/processors/code_mapper.dtsi>
+#include <input/processors/transform.dtsi>
 
 &josefadamcik_sofle_layout {
     transform = <&default_transform>;
