@@ -14,7 +14,6 @@
 #include <input/processors/temp_layer.dtsi>
 #include <input/processors/scaler.dtsi>
 #include <input/processors/code_mapper.dtsi>
-#include <input/processors/transform.dtsi>
 
 &josefadamcik_sofle_layout {
     transform = <&default_transform>;
@@ -112,6 +111,13 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         type = <INPUT_EV_REL>;
         map = <INPUT_REL_X INPUT_REL_Y>, <INPUT_REL_Y INPUT_REL_X>;
     };
+	
+	zip_xy_swap_mouse: zip_xy_swap_mouse {
+	    compatible = "zmk,input-processor-code-mapper";
+	    #input-processor-cells = <0>;
+	    type = <INPUT_EV_REL>;
+	    map = <INPUT_REL_X INPUT_REL_Y>, <INPUT_REL_Y INPUT_REL_X>;
+	};
 
 	zip_xy_to_nop: zip_xy_to_nop {
 	    compatible = "zmk,input-processor-code-mapper";
@@ -130,7 +136,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         /* Swap axes + 2x scaling + auto mouse layer */
 		mouse {
 			layers = <3>;
-        	input-processors =  <&zip_xy_transform 4>, <&zip_xy_scaler 1 1>;
+        	input-processors =  <&zip_xy_swap_mouse>, <&zip_xy_transform 3>, <&zip_xy_scaler 1 1>;
 		};
 		/* input-processors = <&zip_xy_swap_mapper>,  <&zip_temp_layer 3 1000>; */
         /* Layer 6: Scroll mode - swap + reduced sensitivity by ZMK Scaler Input Processor */
@@ -138,8 +144,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
             layers = <1>;
 			input-processors = <&zip_xy_swap>, <&zip_xy_scaler 1 6>,  <&zip_xy_to_scroll>;
 			/* input-processors = <&zip_xy_swap>,  <&zip_xy_to_scroll>; */
+		};
     };
-
 };
 
 &pinctrl {
