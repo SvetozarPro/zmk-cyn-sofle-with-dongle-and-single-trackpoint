@@ -136,13 +136,13 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         /* Swap axes + 2x scaling + auto mouse layer */
 		mouse {
 			layers = <3>;
-        	input-processors =  <&zip_xy_transform 4>, <&zip_xy_scaler 1 1>;
+        	input-processors =  <&zip_xy_transform 0>, <&zip_xy_scaler 1 1>;
 		};
 		/* input-processors = <&zip_xy_swap_mapper>,  <&zip_temp_layer 3 1000>; */
         /* Layer 6: Scroll mode - swap + reduced sensitivity by ZMK Scaler Input Processor */
         scroll {
             layers = <1>;
-			input-processors = <&zip_xy_transform 0>, <&zip_xy_scaler 1 6>,  <&zip_xy_to_scroll>;
+			input-processors = <&zip_xy_transform 4>, <&zip_xy_scaler 1 6>,  <&zip_xy_to_scroll>;
 			/* input-processors = <&zip_xy_swap>,  <&zip_xy_to_scroll>; */
 		};
     };
