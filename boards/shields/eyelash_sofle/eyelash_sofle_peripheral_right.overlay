@@ -142,8 +142,8 @@
         tp-sensitivity = <90>; /* Default 128 How sensitive the TP is. Higher value = faster mouse movenet. Use range from 1 to 255.  */
         tp-neg-inertia = <6>; /* Default 6. Makes the TP feel more responsive and "overshoot" less. Makes cursor stop more quickly when releasing pressure. */
         tp-val6-upper-speed = <90>; /* Default 97. The maximum mouse movement speed the TP will accelarate to. */
-        tp-xy-swap; 
-	    tp-x-invert;
-	    tp-y-invert;
+        // tp-xy-swap; //
+	    // tp-x-invert; //
+	    // tp-y-invert; //
     };
 };
