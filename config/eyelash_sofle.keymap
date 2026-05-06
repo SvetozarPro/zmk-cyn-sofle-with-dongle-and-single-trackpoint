@@ -285,7 +285,7 @@
             display-name = "fn";
             bindings = <
 &kp ESCAPE  &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                    &kp F6          &kp F7                  &kp F8           &kp F9         &kp F10            &kp F11
-&kp TAB     &kp Q          &kp W             &kp E           &kp R            &kp T                                     &mkp LCLK       &mkp MCLK               &mkp RCLK        &msc SCRL_UP   &msc SCRL_DOWN     &kp F12
+&kp TAB     &kp Q          &kp W             &kp E           &kp R            &kp T                                     &msc SCRL_UP    &mkp MCLK               &msc SCRL_DOWN   &mkp MB4       &mkp MB5           &kp F12
 &kp CAPS    &kp PAGE_UP    &kp HOME          &kp UP_ARROW    &kp END          &kp PAGE_UP                               &kp HOME        &kp UP_ARROW            &kp END          &kp PAGE_UP    &to 1              &to 3
 &kp LSHFT   &kp PAGE_DOWN  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp SPACE       &mkp LCLK  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW  &kp PAGE_DOWN  &mo_game_hold 4 0  &to 2
                            &kp LEFT_CONTROL  &mo 1           &kp LEFT_ALT     &kp ENTER      &kp LEFT_WIN    &mkp RCLK  &kp C_MUTE      &ZonePrintScreenUbuntu  &none            &to 0
