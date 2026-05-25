@@ -182,7 +182,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - fn
-  - {t: \, s: '|'}
+  - '&auto_click'
   fn:
   - $$mdi:keyboard-esc$$
   - F1
