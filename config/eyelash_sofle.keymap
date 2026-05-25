@@ -120,10 +120,76 @@
         };
 
         auto_click: auto_click {
+            label = "AUTO_CLICK";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp LCLK>;
-            label = "AUTO_CLICK";
+            wait-ms = <15>;
+            bindings = <
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+                &mkp LCLK
+            >;
         };
     };
 
