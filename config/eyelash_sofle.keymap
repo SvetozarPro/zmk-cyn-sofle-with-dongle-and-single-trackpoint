@@ -123,7 +123,7 @@
             label = "AUTO_CLICK";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <15>;
+            wait-ms = <25>;
             bindings = <&mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK &mkp LCLK>;
         };
     };
