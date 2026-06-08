@@ -63,18 +63,18 @@ layers:
   - {t: \, s: '|'}
   num:
   - $$mdi:keyboard-esc$$
-  - Ctl+Sft+$$mdi:keyboard-esc$$
-  - '2'
-  - '3'
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - KP NUMLOCK
   - KP SLASH
   - KP MULTIPLY
   - {t: '=', s: +}
   - PRINTSCREEN
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+$$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
