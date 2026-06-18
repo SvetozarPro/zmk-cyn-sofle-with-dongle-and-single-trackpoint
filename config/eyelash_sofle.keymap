@@ -251,22 +251,7 @@
 &kp TAB    &kp Q         &kp W             &kp E         &kp R         &kp T                                  &kp Y         &kp U         &kp I         &kp O          &kp P          &kp LEFT_BRACKET
 &kp CAPS   &kp A         &kp S             &kp D         &kp F         &kp G                                  &kp H         &kp J         &kp K         &kp L          &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z         &kp X             &kp C         &kp V         &kp B         &kp SPACE     &kp SPACE  &kp N         &kp M         &kp COMMA     &kp DOT        &kp SLASH      &kp RIGHT_SHIFT
-                         &kp LEFT_CONTROL  &mo 1         &kp LEFT_ALT  &kp ENTER     &kp DELETE    &kp BSPC   &kp MINUS     &kp EQUAL     &mo 3         &kp BACKSLASH
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
-        };
-
-        num_layer {
-            display-name = "num";
-            bindings = <
-&kp ESCAPE          &kp F1  &kp F2  &kp F3  &kp F4    &kp F5                             &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp EQUAL     &kp PRINTSCREEN  &kp C_MUTE
-&kp LC(LS(ESCAPE))  &trans  &trans  &trans  &trans    &trans                             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp HOME         &kp END
-&trans              &trans  &trans  &trans  &trans    &trans                             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp PAGE_UP      &kp PAGE_DOWN
-&trans              &trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans    &kp SPACE      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &kp KP_DOT       &ZonePrintScreenUbuntu
-                            &trans  &none   &trans    &trans    &trans    &kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_DOT       &mo 3            &none
+                         &kp LEFT_CONTROL  &mo 2         &kp LEFT_ALT  &kp ENTER     &kp DELETE    &kp BSPC   &kp MINUS     &kp EQUAL     &mo 3         &kp BACKSLASH
             >;
 
             sensor-bindings =
@@ -281,7 +266,22 @@
 &kp TAB         &kp A         &trans        &trans        &trans        &trans                                   &kp Y      &kp U      &kp I      &kp O        &kp P          &kp LEFT_BRACKET
 &kp CAPSLOCK    &kp Q         &trans        &trans        &trans        &trans                                   &kp H      &kp J      &kp K      &kp L        &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans        &trans          &mkp LCLK  &kp N      &kp M      &kp COMMA  &kp DOT      &kp SLASH      &kp RSHIFT
-                              &trans        &mo 1         &kp LEFT_GUI  &trans        &kp LEFT_ALT    &mkp RCLK  &kp MINUS  &kp EQUAL  &mo 3      &auto_click
+                              &trans        &mo 2         &kp LEFT_GUI  &trans        &kp LEFT_ALT    &mkp RCLK  &kp MINUS  &kp EQUAL  &mo 3      &auto_click
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+        };
+
+        num_layer {
+            display-name = "num";
+            bindings = <
+&kp ESCAPE          &kp F1  &kp F2  &kp F3  &kp F4    &kp F5                             &kp KP_NUMLOCK   &kp KP_SLASH     &kp KP_MULTIPLY  &kp EQUAL     &kp PRINTSCREEN  &kp C_MUTE
+&kp LC(LS(ESCAPE))  &kp Q   &trans  &trans  &trans    &trans                             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp HOME         &kp END
+&trans              &kp A   &trans  &trans  &trans    &trans                             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp PAGE_UP      &kp PAGE_DOWN
+&trans              &trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans    &kp SPACE      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &kp KP_DOT       &ZonePrintScreenUbuntu
+                            &trans  &none   &trans    &trans    &trans    &kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_DOT       &mo 3            &none
             >;
 
             sensor-bindings =
@@ -294,9 +294,9 @@
             bindings = <
 &kp ESCAPE  &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                    &kp F6          &kp F7                  &kp F8           &kp F9         &kp F10            &kp F11
 &kp TAB     &kp Q          &kp W             &kp E           &kp R            &kp T                                     &msc SCRL_UP    &mkp MCLK               &msc SCRL_DOWN   &mkp MB4       &mkp MB5           &kp F12
-&kp CAPS    &kp PAGE_UP    &kp HOME          &kp UP_ARROW    &kp END          &kp PAGE_UP                               &kp HOME        &kp UP_ARROW            &kp END          &kp PAGE_UP    &to 1              &to 3
-&kp LSHFT   &kp PAGE_DOWN  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp SPACE       &mkp LCLK  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW  &kp PAGE_DOWN  &mo_game_hold 4 0  &to 2
-                           &kp LEFT_CONTROL  &mo 1           &kp LEFT_ALT     &kp ENTER      &kp LEFT_WIN    &mkp RCLK  &kp C_MUTE      &ZonePrintScreenUbuntu  &none            &to 0
+&kp CAPS    &kp PAGE_UP    &kp HOME          &kp UP_ARROW    &kp END          &kp PAGE_UP                               &kp HOME        &kp UP_ARROW            &kp END          &kp PAGE_UP    &to 2              &to 3
+&kp LSHFT   &kp PAGE_DOWN  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp SPACE       &mkp LCLK  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW  &kp PAGE_DOWN  &mo_game_hold 4 0  &to 1
+                           &kp LEFT_CONTROL  &mo 2           &kp LEFT_ALT     &kp ENTER      &kp LEFT_WIN    &mkp RCLK  &kp C_MUTE      &ZonePrintScreenUbuntu  &none            &to 0
             >;
 
             sensor-bindings =
@@ -309,9 +309,9 @@
             bindings = <
 &kp ESCAPE  &kp F1  &kp F2            &kp F3  &kp F4        &kp F5                                &kp F6          &kp F7          &kp F8           &kp F9         &kp F10         &kp F11
 &kp TAB     &kp Q   &kp W             &kp E   &kp R         &kp T                                 &mkp LCLK       &mkp MCLK       &mkp RCLK        &msc SCRL_UP   &msc SCRL_DOWN  &kp F12
-&kp CAPS    &kp A   &kp S             &kp D   &kp F         &kp G                                 &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &to 1           &to 3
-&kp LSHFT   &kp Z   &kp X             &kp C   &kp V         &kp B      &kp SPACE       &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none           &to 2
-                    &kp LEFT_CONTROL  &mo 1   &kp LEFT_ALT  &kp ENTER  &kp LEFT_WIN    &kp BSPC   &kp C_MUTE      &to 4           &mo 3            &to 0
+&kp CAPS    &kp A   &kp S             &kp D   &kp F         &kp G                                 &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &to 2           &to 3
+&kp LSHFT   &kp Z   &kp X             &kp C   &kp V         &kp B      &kp SPACE       &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none           &to 1
+                    &kp LEFT_CONTROL  &mo 2   &kp LEFT_ALT  &kp ENTER  &kp LEFT_WIN    &kp BSPC   &kp C_MUTE      &to 4           &mo 3            &to 0
             >;
 
             sensor-bindings =
